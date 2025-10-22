@@ -4,11 +4,15 @@
   "description": "New Repository set up for web hooks nodejs",
   "main": "index.js",
   "scripts": {
-  "test": "jest"
-},
+    "test": "jest"
+  },
   "author": "David Fashakin",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
-  }
+    "jest": "^29.7.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit":[
+    "test"
+  ]
 }
